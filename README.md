@@ -54,6 +54,11 @@ A: 平常多阅读，多记录。按现在的安排，每人每两周轮到一�
 * [Medium](https://medium.com/)
 * [Codepen](http://codepen.io/)
 * [Hacker News](https://news.ycombinator.com/)
+* [HTML5Rocks](https://www.html5rocks.com)
+* [W3C 标准](https://www.w3.org/standards/)
+* [Awesome HTML5](https://github.com/diegocard/awesome-html5)
+* [Awesome JavaScript](https://github.com/sorrycc/awesome-javascript)
+* [Awesome CSS](https://github.com/sotayamashita/awesome-css)
 
 
 ### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Q: 分享者要做些什么？？

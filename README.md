@@ -70,6 +70,7 @@ A: 以花名拼音排序：
 - (d)大鱼
 - (d)杜松
 - (w)五柳
+- (x)新雨
 - (x)夕颜
 - (x)驯鹿
 - (z)藏马
@@ -77,4 +78,71 @@ A: 以花名拼音排序：
 如果分享者当天请假，往下顺推。
 
 -----
+
+## 排版建议
+
+### 1. 用 <code>`</code> 优化 inline code
+
+```diff
+- 标题是 <h2><h3>
++ 标题是 `<h2></h3>`
+```
+
+### 2. 用 ` ``` `优化多行 code
+代码是阅读者最最最最关心的，理论说得再漂亮，最终也要拿代码来检验。无论如何，代码都值得更好的呈现。
+
+### 3. 善用 `##`, `###`, `####` 突出标题
+起提纲挈领的作用，就像这篇文档的效果。
+提纲有助于读者快速浏览到想要的内容。
+
+### 4. 善用列表
+用列表可以使内容更整齐，更有韵律。
+
+* 有序列表（`1.` `2.` `3.`) 
+* 无序列表 (`*`, `-`) 
+
+### 5. 数字或英文，和中文之间有空格
+
+```diff
+- LAB色彩空间
++ LAB 色彩空间
+
+- 《第100期》
++ 《第 100 期》
+```
+
+<Warning>代码需要呼吸，文章也如此。</Warning>
+
+### 6. 超链接优化
+如果不需要强调链接的地址，或者说链接 url 没有特别的含义，可以将链接隐藏。这样阅读起来噪音更少，内容就会更突出。
+
+## 一些优化对比
+
+
+
+
+before | after
+------ | -----
+![image](https://user-images.githubusercontent.com/43009/28095003-982ac370-66d2-11e7-8dd4-024bed76df58.png) | ![image](https://user-images.githubusercontent.com/43009/28095060-e2b13f28-66d2-11e7-8ee7-86fa2fdaedf3.png)
+![image](https://user-images.githubusercontent.com/43009/28094711-c973d4e6-66d0-11e7-9788-17624fad2f0e.png) | ![image](https://user-images.githubusercontent.com/43009/28095082-097d7824-66d3-11e7-95c0-c6d749a53f94.png)
+![image](https://user-images.githubusercontent.com/43009/28095106-2d5fb72a-66d3-11e7-8d5d-f7f329bc2ab0.png) | ![image](https://user-images.githubusercontent.com/43009/28095111-348cd38e-66d3-11e7-83e2-5a1a1183a69d.png)
+
+
+## tip 1
+在写的时候，随时可以点下面的帮助查看 Markdown 语法：
+![image](https://user-images.githubusercontent.com/43009/28095420-f1c11de2-66d4-11e7-9fe4-1a27b4022fb8.png)
+
+## tip 2
+持续修改：
+
+* 减少多余的噪音文字，直到足够简洁，少到不能再少为止。
+* 感受一下，阅读很流畅吗？
+
+## tip 3
+可以看看这篇文档的 Markdown 源码哦。
+
+
+
+
+
 
